@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayan Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gym.css">
+<style>
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai', 'cursive';
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(abs-1850926_1280.jpg);
+        color: white;
+        font-family: 'Baloo Bhai', 'cursive';
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .left img {
+        width: 50px;
+        filter: invert(100%);
+
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 18px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://www.freepnglogos.com/uploads/dumbbell-png/dumbbell-sponsored-native-company-native-desc-6.png "
+                alt="">
+            <div>Ayan Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active"> Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Center</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+
+    </div>
+</body>
+
+</html>
